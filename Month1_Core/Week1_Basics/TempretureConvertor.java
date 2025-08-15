@@ -31,6 +31,9 @@ public class TempretureConvertor
                 System.out.println("Tempreture in Celsius="+con_temp);  
                 break;
 
+            default:
+                System.out.println("Invalid choice");
+
 
         
         }
