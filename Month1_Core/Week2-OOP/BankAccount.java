@@ -12,6 +12,7 @@ class BankAcc {
     }
 
     void dep(double amt) {
+        
         if (amt > 0) {
             bal += amt;
             System.out.println("AMOUNT DEPOSITED");
