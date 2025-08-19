@@ -76,7 +76,7 @@ public class ShapeArea
         break;
 
         default:
-        System.out.println("ERROR=");
+        System.out.println("ERROR");
         break;
 
     }
