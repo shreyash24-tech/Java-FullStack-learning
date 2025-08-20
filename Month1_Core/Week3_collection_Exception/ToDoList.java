@@ -30,6 +30,8 @@ class ToDoList {
                     viewTask();
                 case 4 ->
                     System.out.print("Thank You");
+                default :
+                    System.out.println("ERROR");
 
             }
         } while (ch != 4);
@@ -51,6 +53,10 @@ class ToDoList {
 
     public static void removeTask() {
         viewTask();
+        if(task_count ==0)
+        {
+            print("No Task to Remove");
+        }
 
         System.out.println("Enter the Task no=");
         int tasknum = sc.nextInt();
