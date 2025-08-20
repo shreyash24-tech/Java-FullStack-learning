@@ -1,4 +1,4 @@
-// Parent Class
+
 
 class Vehicle {
 
@@ -16,7 +16,7 @@ class Vehicle {
     }
 }
 
-// Child Class 1
+
 class Car extends Vehicle {
 
     int doors;
@@ -32,7 +32,7 @@ class Car extends Vehicle {
     }
 }
 
-// Child Class 2
+
 class Bike extends Vehicle {
 
     double mileage;
@@ -48,12 +48,18 @@ class Bike extends Vehicle {
     }
 }
 
-// Main Class
+
 public class VehicleInheritance {
 
     public static void main(String[] args) {
         Car c = new Car("TATA", "Nexon", 4);
         Bike b = new Bike("Honda", "HF-Delux", 70);
+
+        System.out.println("--------------CAR---------------");
+        c.display();
+        System.out.println("--------------BIKE---------------");
+        b.display();
+        
 
     }
 }
